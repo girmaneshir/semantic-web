@@ -1,0 +1,1348 @@
+@prefix : <http://www.movieontology.org/2009/10/01/movieontology.owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix movieontology2: <http://www.movieontology.org/2009/11/09/movieontology.owl#> .
+@prefix ontology: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix page: <http://dbpedia.org/page/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix www: <http://www.movieontology.org/2009/11/09/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ontology:Writer a owl:Class ;
+    rdfs:subClassOf ontology:Person .
+
+dc:contributor a owl:AnnotationProperty .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:date a owl:AnnotationProperty .
+
+dc:description a owl:AnnotationProperty .
+
+dc:publisher a owl:AnnotationProperty .
+
+: a :Movie ;
+    :belongsToGenre :Be_sintu ;
+    :hasActor :Meseret ;
+    :releasedate "2024-11-28"^^xsd:date ;
+    :title ""^^xsd:string .
+
+:Action a :Brute_Action,
+        owl:Thing .
+
+:Adult a :Porn,
+        owl:Thing .
+
+:Adventure a :Actionreach,
+        :Imaginational_Entertainment,
+        owl:Thing .
+
+:Afghanistan a :Southern_Asia,
+        owl:Thing .
+
+:Aland_Islands a :Northern_Europe,
+        owl:Thing .
+
+:Albania a :Southern_Europe,
+        owl:Thing .
+
+:Algeria a :Northern_Africa,
+        owl:Thing .
+
+:American_Samoa a :Polynesia,
+        owl:Thing .
+
+:Andorra a :Southern_Europe,
+        owl:Thing .
+
+:Angola a :Middle_Africa,
+        owl:Thing .
+
+:Anguilla a :Caribbean,
+        owl:Thing .
+
+:Animation a :Fun,
+        owl:Thing .
+
+:Antigua_and_Barbuda a :Caribbean,
+        owl:Thing .
+
+:Argentina a :South_America,
+        owl:Thing .
+
+:Armenia a :Western_Asia,
+        owl:Thing .
+
+:Aruba a :Caribbean,
+        owl:Thing .
+
+:Australia a :Australia_and_New_Zealand,
+        owl:Thing .
+
+:Austria a :Western_Europe,
+        owl:Thing .
+
+:Azerbaijan a :Western_Asia,
+        owl:Thing .
+
+:BAFTA_Film_Award a :Award,
+        owl:Thing .
+
+:Bahamas a :Caribbean,
+        owl:Thing .
+
+:Bahrain a :Western_Asia,
+        owl:Thing .
+
+:Bangladesh a :Southern_Asia,
+        owl:Thing .
+
+:Barbados a :Caribbean,
+        owl:Thing .
+
+:Belarus a :Eastern_Europe,
+        owl:Thing .
+
+:Belgium a :Western_Europe,
+        owl:Thing .
+
+:Belize a :Central_America,
+        owl:Thing .
+
+:Benin a :Western_Africa,
+        owl:Thing .
+
+:Bermuda a :Northern_America,
+        owl:Thing .
+
+:Besintu a :Movie ;
+    :belongsToGenre :Be_sintu ;
+    :hasActor :Meseret ;
+    :releasedate "2024-11-28"^^xsd:date ;
+    :title "Besintu"^^xsd:string .
+
+:Bhutan a :Southern_Asia,
+        owl:Thing .
+
+:Biography a :Documentarial_Information,
+        owl:Thing .
+
+:Black_and_White a :Colorinfo,
+        owl:Thing .
+
+:Bolivia a :South_America,
+        owl:Thing .
+
+:Bosnia-Herzegovina a :Southern_Europe,
+        owl:Thing .
+
+:Botswana a :Southern_Africa,
+        owl:Thing .
+
+:Brazil a :South_America,
+        owl:Thing .
+
+:British_Virgin_Islands a :Caribbean,
+        owl:Thing .
+
+:Brunei_Darussalam a :Southeastern_Asia,
+        owl:Thing .
+
+:Bulgaria a :Eastern_Europe,
+        owl:Thing .
+
+:Burkina_Faso a :Western_Africa,
+        owl:Thing .
+
+:Burma a :Southern_Asia,
+        owl:Thing .
+
+:Burundi a :Eastern_Africa,
+        owl:Thing .
+
+:Cambodia a :Southeastern_Asia,
+        owl:Thing .
+
+:Cameroon a :Middle_Africa,
+        owl:Thing .
+
+:Canada a :Northern_America,
+        owl:Thing .
+
+:Cape_Verde a :Western_Africa,
+        owl:Thing .
+
+:Cayman_Islands a :Caribbean,
+        owl:Thing .
+
+:Central_African_Republic a :Middle_Africa,
+        owl:Thing .
+
+:Chad a :Middle_Africa,
+        owl:Thing .
+
+:Channel_Islands a :Northern_Europe,
+        owl:Thing .
+
+:Chile a :South_America,
+        owl:Thing .
+
+:China a :Eastern_Asia,
+        owl:Thing .
+
+:Colombia a :South_America,
+        owl:Thing .
+
+:Color a :Colorinfo,
+        owl:Thing .
+
+:Comedy a :Fun,
+        owl:Thing .
+
+:Comoros a :Eastern_Africa,
+        owl:Thing .
+
+:Congo a :Middle_Africa,
+        owl:Thing .
+
+:Cook_Islands a :Polynesia,
+        owl:Thing .
+
+:Costa_Rica a :Central_America,
+        owl:Thing .
+
+:Crime a :Logical_Thrilling,
+        owl:Thing .
+
+:Croatia a :Southern_Europe,
+        owl:Thing .
+
+:Cuba a :Caribbean,
+        owl:Thing .
+
+:Cyprus a :Western_Asia,
+        owl:Thing .
+
+:Czech_Republic a :Eastern_Europe,
+        owl:Thing .
+
+:Denmark a :Northern_Europe,
+        owl:Thing .
+
+:Djibouti a :Eastern_Africa,
+        owl:Thing .
+
+:Documentary a :Documentarial_Information,
+        owl:Thing .
+
+:Dominica a :Caribbean,
+        owl:Thing .
+
+:Dominican_Republic a :Caribbean,
+        owl:Thing .
+
+:Drama a :Heavy_Sensible,
+        owl:Thing .
+
+:Ecuador a :South_America,
+        owl:Thing .
+
+:Egypt a :Northern_Africa,
+        owl:Thing .
+
+:El_Salvador a :Central_America,
+        owl:Thing .
+
+:Equatorial_Guinea a :Middle_Africa,
+        owl:Thing .
+
+:Eritrea a :Eastern_Africa,
+        owl:Thing .
+
+:Estonia a :Northern_Europe,
+        owl:Thing .
+
+:Ethiopia a :Eastern_Africa,
+        owl:Thing .
+
+:Falkland_Islands a :South_America,
+        owl:Thing .
+
+:Family a :Kids,
+        owl:Thing .
+
+:Fantasy a :SciFi_and_Fantasy,
+        owl:Thing .
+
+:Faroe_Islands a :Northern_Europe,
+        owl:Thing .
+
+:Federated_States_of_Micronesia a :Micronesia,
+        owl:Thing .
+
+:Fiji a :Melanesia,
+        owl:Thing .
+
+:Film-Noir a :Heavy_Sensible,
+        owl:Thing .
+
+:Finland a :Northern_Europe,
+        owl:Thing .
+
+:France a :Western_Europe,
+        owl:Thing .
+
+:French_Guiana a :South_America,
+        owl:Thing .
+
+:French_Polynesia a :Polynesia,
+        owl:Thing .
+
+:Gabon a :Middle_Africa,
+        owl:Thing .
+
+:Gambia a :Western_Africa,
+        owl:Thing .
+
+:Game-Show a :TV-Entertainment,
+        owl:Thing .
+
+:Georgia a :Western_Asia,
+        owl:Thing .
+
+:Germany a :Western_Europe,
+        owl:Thing .
+
+:Ghana a :Western_Africa,
+        owl:Thing .
+
+:Gibraltar a :Southern_Europe,
+        owl:Thing .
+
+:Golden_Globe_Award a :Award,
+        owl:Thing .
+
+:Greece a :Southern_Europe,
+        owl:Thing .
+
+:Greenland a :Northern_America,
+        owl:Thing .
+
+:Grenada a :Caribbean,
+        owl:Thing .
+
+:Guadeloupe a :Caribbean,
+        owl:Thing .
+
+:Guam a :Micronesia,
+        owl:Thing .
+
+:Guatemala a :Central_America,
+        owl:Thing .
+
+:Guernesey a :Northern_Europe,
+        owl:Thing .
+
+:Guinea a :Western_Africa,
+        owl:Thing .
+
+:Guinea-Bassau a :Western_Africa,
+        owl:Thing .
+
+:Guyana a :South_America,
+        owl:Thing .
+
+:Haiti a :Caribbean,
+        owl:Thing .
+
+:History a :Historical_Information,
+        owl:Thing .
+
+:Holy_See a :Southern_Europe,
+        owl:Thing .
+
+:Honduras a :Central_America,
+        owl:Thing .
+
+:Hong_Kong a :Eastern_Asia,
+        owl:Thing .
+
+:Horror a :Thrilling,
+        owl:Thing .
+
+:Hungary a :Eastern_Europe,
+        owl:Thing .
+
+:Iceland a :Northern_Europe,
+        owl:Thing .
+
+:Inception a :Movie ;
+    :hasActor :Leonardo_DiCaprio ;
+    :imdbrating 8.8e+00 ;
+    :releasedate "2010-07-16"^^xsd:date ;
+    :title "Inception"^^xsd:string .
+
+:India a :Southern_Asia,
+        owl:Thing .
+
+:Indonesia a :Southeastern_Asia,
+        owl:Thing .
+
+:Iran a :Southern_Asia,
+        owl:Thing .
+
+:Iraq a :Western_Asia,
+        owl:Thing .
+
+:Ireland a :Northern_Europe,
+        owl:Thing .
+
+:Isle_of_Man a :Northern_Europe,
+        owl:Thing .
+
+:Israel a :Western_Asia,
+        owl:Thing .
+
+:Italy a :Southern_Europe,
+        owl:Thing .
+
+:Ivory_Coast a :Western_Africa,
+        owl:Thing .
+
+:Jamaica a :Caribbean,
+        owl:Thing .
+
+:Japan a :Eastern_Asia,
+        owl:Thing .
+
+:Jersey a :Northern_Europe,
+        owl:Thing .
+
+:Jordan a :Western_Asia,
+        owl:Thing .
+
+:Kazakhstan a :Central_Asia,
+        owl:Thing .
+
+:Kenya a :Eastern_Africa,
+        owl:Thing .
+
+:Kiribati a :Micronesia,
+        owl:Thing .
+
+:Kuwait a :Western_Asia,
+        owl:Thing .
+
+:Kyrgyzstan a :Central_Asia,
+        owl:Thing .
+
+:Laos a :Southeastern_Asia,
+        owl:Thing .
+
+:Latvia a :Northern_Europe,
+        owl:Thing .
+
+:Lebanon a :Western_Asia,
+        owl:Thing .
+
+:Lesotho a :Southern_Africa,
+        owl:Thing .
+
+:Liberia a :Western_Africa,
+        owl:Thing .
+
+:Libya a :Northern_Africa,
+        owl:Thing .
+
+:Liechtenstein a :Western_Europe,
+        owl:Thing .
+
+:Lithuania a :Northern_Europe,
+        owl:Thing .
+
+:Luxembourg a :Western_Europe,
+        owl:Thing .
+
+:Macao a :Eastern_Asia,
+        owl:Thing .
+
+:Madagascar a :Eastern_Africa,
+        owl:Thing .
+
+:Malawi a :Eastern_Africa,
+        owl:Thing .
+
+:Malaysia a :Southeastern_Asia,
+        owl:Thing .
+
+:Maldives a :Southern_Asia,
+        owl:Thing .
+
+:Mali a :Western_Africa,
+        owl:Thing .
+
+:Malta a :Southern_Europe,
+        owl:Thing .
+
+:Marshal_lIsland a :Micronesia,
+        owl:Thing .
+
+:Martinique a :Caribbean,
+        owl:Thing .
+
+:Mauritania a :Western_Africa,
+        owl:Thing .
+
+:Mauritius a :Eastern_Africa,
+        owl:Thing .
+
+:Mayotte a :Eastern_Africa,
+        owl:Thing .
+
+:Mexico a :Central_America,
+        owl:Thing .
+
+:Miscellaneous_Award a :Award,
+        owl:Thing .
+
+:Moldova a :Eastern_Europe,
+        owl:Thing .
+
+:Monaco a :Western_Europe,
+        owl:Thing .
+
+:Mongolia a :Eastern_Asia,
+        owl:Thing .
+
+:Montenegro a :Southern_Europe,
+        owl:Thing .
+
+:Montserrat a :Caribbean,
+        owl:Thing .
+
+:Morocco a :Northern_Africa,
+        owl:Thing .
+
+:Mozambique a :Eastern_Africa,
+        owl:Thing .
+
+:Music a :Musical_Entertainment,
+        owl:Thing .
+
+:Musical a :Musical_Entertainment,
+        owl:Thing .
+
+:Myanmar a :Southeastern_Asia,
+        owl:Thing .
+
+:Mystery a :Sensible_Thrilling,
+        owl:Thing .
+
+:Namibia a :Southern_Africa,
+        owl:Thing .
+
+:Nauru a :Micronesia,
+        owl:Thing .
+
+:Nepal a :Southern_Asia,
+        owl:Thing .
+
+:Netherlands a :Western_Europe,
+        owl:Thing .
+
+:Netherlands_Antilles a :Caribbean,
+        owl:Thing .
+
+:New_Caledonia a :Melanesia,
+        owl:Thing .
+
+:New_Zealand a :Australia_and_New_Zealand,
+        owl:Thing .
+
+:News a :Info-TV,
+        owl:Thing .
+
+:Nicaragua a :Central_America,
+        owl:Thing .
+
+:Niger a :Western_Africa,
+        owl:Thing .
+
+:Nigeria a :Western_Africa,
+        owl:Thing .
+
+:Niue a :Polynesia,
+        owl:Thing .
+
+:Norfolk_Island a :Australia_and_New_Zealand,
+        owl:Thing .
+
+:North_Korea a :Eastern_Asia,
+        owl:Thing .
+
+:Northern_Mariana_Islands a :Micronesia,
+        owl:Thing .
+
+:Norway a :Northern_Europe,
+        owl:Thing .
+
+:Oman a :Western_Asia,
+        owl:Thing .
+
+:Oscar_Award a :Award,
+        owl:Thing .
+
+:Pakistan a :Southern_Asia,
+        owl:Thing .
+
+:Palau a :Micronesia,
+        owl:Thing .
+
+:Palestine a :Western_Asia,
+        owl:Thing .
+
+:Panama a :Central_America,
+        owl:Thing .
+
+:Papua_New_Guinea a :Melanesia,
+        owl:Thing .
+
+:Paraguay a :South_America,
+        owl:Thing .
+
+:Peru a :South_America,
+        owl:Thing .
+
+:Philippines a :Southeastern_Asia,
+        owl:Thing .
+
+:Pitcairn a :Polynesia,
+        owl:Thing .
+
+:Poland a :Eastern_Europe,
+        owl:Thing .
+
+:Portugal a :Southern_Europe,
+        owl:Thing .
+
+:Primetime_Emmy_Award a :Award,
+        owl:Thing .
+
+:Puerto_Rico a :Caribbean,
+        owl:Thing .
+
+:Qatar a :Western_Asia,
+        owl:Thing .
+
+:Reality-TV a :TV-Entertainment,
+        owl:Thing .
+
+:Republic_of_Macedonia a :Southern_Europe,
+        owl:Thing .
+
+:Reunion a :Eastern_Africa,
+        owl:Thing .
+
+:Romance a :Love,
+        owl:Thing .
+
+:Romania a :Eastern_Europe,
+        owl:Thing .
+
+:Russia a :Eastern_Europe,
+        owl:Thing .
+
+:RussiaAsia a :Asia,
+        owl:Thing .
+
+:Rwanda a :Eastern_Africa,
+        owl:Thing .
+
+:Saint-Barthelemy a :Caribbean,
+        owl:Thing .
+
+:Saint_Helena a :Western_Africa,
+        owl:Thing .
+
+:Saint_Kitts_and_NEvis a :Caribbean,
+        owl:Thing .
+
+:Saint_Lucia a :Caribbean,
+        owl:Thing .
+
+:Saint_Martin a :Caribbean,
+        owl:Thing .
+
+:Saint_Pierre_and_Miquelon a :Northern_America,
+        owl:Thing .
+
+:Saint_Vincent_and_the_Grenadines a :Caribbean,
+        owl:Thing .
+
+:Samoa a :Polynesia,
+        owl:Thing .
+
+:San_Marino a :Southern_Europe,
+        owl:Thing .
+
+:Sao_Tome_and_Principe a :Middle_Africa,
+        owl:Thing .
+
+:Saudi_Arabia a :Western_Asia,
+        owl:Thing .
+
+:Sci-Fi a :SciFi_and_Fantasy,
+        owl:Thing .
+
+:Senegal a :Western_Africa,
+        owl:Thing .
+
+:Serbia a :Southern_Europe,
+        owl:Thing .
+
+:Serbia_and_Montenegro a :Southern_Europe,
+        owl:Thing .
+
+:Seychelles a :Eastern_Africa,
+        owl:Thing .
+
+:Short a :Genre,
+        owl:Thing .
+
+:Sierra_Leone a :Western_Africa,
+        owl:Thing .
+
+:Singapore a :Southeastern_Asia,
+        owl:Thing .
+
+:Slovakia a :Eastern_Europe,
+        owl:Thing .
+
+:Slovenia a :Southern_Europe,
+        owl:Thing .
+
+:Solomon_Island a :Melanesia,
+        owl:Thing .
+
+:Somalia a :Eastern_Africa,
+        owl:Thing .
+
+:South_Africa a :Southern_Africa,
+        owl:Thing .
+
+:South_Korea a :Eastern_Asia,
+        owl:Thing .
+
+:Spain a :Southern_Europe,
+        owl:Thing .
+
+:Sport a :Entertaining_Information,
+        owl:Thing .
+
+:Sri_Lanka a :Southern_Asia,
+        owl:Thing .
+
+:Sudan a :Northern_Africa,
+        owl:Thing .
+
+:Suriname a :South_America,
+        owl:Thing .
+
+:Svalbard_and_Jan_Mayen_Islands a :Northern_Europe,
+        owl:Thing .
+
+:Swaziland a :Southern_Africa,
+        owl:Thing .
+
+:Sweden a :Northern_Europe,
+        owl:Thing .
+
+:Switzerland a :Western_Europe,
+        owl:Thing .
+
+:Syria a :Western_Asia,
+        owl:Thing .
+
+:Taiwan a :Eastern_Asia,
+        owl:Thing .
+
+:Tajikistan a :Central_Asia,
+        owl:Thing .
+
+:Talk-Show a :Info-TV,
+        owl:Thing .
+
+:Tanzania a :Eastern_Africa,
+        owl:Thing .
+
+:Thailand a :Southeastern_Asia,
+        owl:Thing .
+
+:Thriller a :Sensible_Thrilling,
+        owl:Thing .
+
+:Timor-Leste a :Southeastern_Asia,
+        owl:Thing .
+
+:Titanic a :Movie ;
+    :hasActor :Leonardo_DiCaprio ;
+    :imdbrating 7.8e+00 ;
+    :releasedate "1997-12-19"^^xsd:date ;
+    :title "Titanic"^^xsd:string .
+
+:Togo a :Western_Africa,
+        owl:Thing .
+
+:Tokelau a :Polynesia,
+        owl:Thing .
+
+:Tonga a :Polynesia,
+        owl:Thing .
+
+:Trinidad_and_Tobago a :Caribbean,
+        owl:Thing .
+
+:Tunisia a :Northern_Africa,
+        owl:Thing .
+
+:Turkey a :Western_Asia,
+        owl:Thing .
+
+:Turkmenistan a :Central_Asia,
+        owl:Thing .
+
+:Turks_and_Caicos_Islands a :Caribbean,
+        owl:Thing .
+
+:Tuvalu a :Polynesia,
+        owl:Thing .
+
+:USA a :Northern_America,
+        owl:Thing .
+
+:USA_Passed a :Certification,
+        owl:Thing .
+
+:Uganda a :Eastern_Africa,
+        owl:Thing .
+
+:Ukraine a :Eastern_Europe,
+        owl:Thing .
+
+:United_Arab_Emirates a :Western_Asia,
+        owl:Thing .
+
+:United_Kingdom a :Northern_Europe,
+        owl:Thing .
+
+:United_States_Virgin_Islands a :Caribbean,
+        owl:Thing .
+
+:Uruguay a :South_America,
+        owl:Thing .
+
+:Uzbekistan a :Central_Asia,
+        owl:Thing .
+
+:Vanuatu a :Melanesia,
+        owl:Thing .
+
+:Venezuela a :South_America,
+        owl:Thing .
+
+:Vietnam a :Southeastern_Asia,
+        owl:Thing .
+
+:Wallis_and_Futuna_Islands a :Polynesia,
+        owl:Thing .
+
+:War a :Brute_Action,
+        owl:Thing .
+
+:Western a :Old_Action,
+        owl:Thing .
+
+:Western_Sahara a :Northern_Africa,
+        owl:Thing .
+
+:Yemen a :Western_Asia,
+        owl:Thing .
+
+:Zaire a :Middle_Africa,
+        owl:Thing .
+
+:Zambia a :Eastern_Africa,
+        owl:Thing .
+
+:Zimbabwe a :Eastern_Africa,
+        owl:Thing .
+
+:containsCountry a owl:ObjectProperty ;
+    rdfs:domain :Territory ;
+    rdfs:range ontology:Country .
+
+:enablesConsumptionOf a owl:ObjectProperty ;
+    rdfs:domain movieontology2:Consumable_Product ;
+    rdfs:range www:Movie ;
+    owl:inverseOf :isConsumableAs .
+
+:hasActress a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:subPropertyOf :hasActor ;
+    owl:inverseOf :isActressIn ;
+    owl:propertyDisjointWith :hasMaleActor .
+
+:hasComposer a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range ontology:Musical_Artist ;
+    owl:inverseOf :isComposerIn .
+
+:hasCostumeDesigner a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Costume_Designer ;
+    owl:inverseOf :isCostumeDesignerIn .
+
+:hasEditor a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Editor ;
+    owl:inverseOf :isEditorIn .
+
+:hasProducer a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Producer .
+
+:hasReleasingCountry a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range ontology:Country ;
+    owl:inverseOf :isReleasingCountryOf .
+
+:imdbrating a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range xsd:double .
+
+:isCertifiedWith a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Certification ;
+    owl:inverseOf :isCertificationOf .
+
+:isColorOf a owl:ObjectProperty ;
+    rdfs:domain :Colorinfo ;
+    rdfs:range www:Movie ;
+    owl:inverseOf :hasColor .
+
+:isDirectorOf a owl:ObjectProperty ;
+    rdfs:domain page:Film_Director ;
+    rdfs:range www:Movie ;
+    owl:inverseOf :hasDirector .
+
+:isFilmLocationOf a owl:ObjectProperty ;
+    rdfs:domain page:Place ;
+    rdfs:range www:Movie ;
+    owl:inverseOf :hasFilmLocation .
+
+:isGenreOf a owl:ObjectProperty ;
+    owl:inverseOf :belongsToGenre .
+
+:isProducedBy a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Production_Company ;
+    owl:inverseOf :produced .
+
+:isSoundmixOf a owl:ObjectProperty ;
+    rdfs:domain :Sound_Mix ;
+    rdfs:range www:Movie ;
+    owl:inverseOf :hasSoundmix .
+
+:isTranslatedTo a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range ontology:Language ;
+    owl:inverseOf :hasTranslatedMovie .
+
+:nominatedFor a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Award .
+
+:partOfTerritory a owl:ObjectProperty ;
+    rdfs:domain ontology:Country ;
+    rdfs:range :Territory .
+
+:releasedate a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range xsd:date .
+
+:runtime a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range xsd:int .
+
+:title a owl:DatatypeProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range xsd:string .
+
+www:movieontology.owl a owl:Ontology ;
+    dc:contributor "Amancio Bouza"^^xsd:string ;
+    dc:creator "Amancio Bouza"^^xsd:string ;
+    dc:date "20.01.2010"^^xsd:string ;
+    dc:description "MO - Movie ontology"^^xsd:string ;
+    dc:publisher "Amancio Bouza"^^xsd:string ;
+    owl:imports ontology: .
+
+movieontology2:isAwardOf a owl:ObjectProperty ;
+    rdfs:domain :Award ;
+    rdfs:range www:Movie ;
+    owl:inverseOf :isAwardedWith .
+
+:Entertaining_Information a owl:Class ;
+    rdfs:subClassOf :Entertainment .
+
+:Fast-Info a owl:Class ;
+    rdfs:subClassOf :Information .
+
+:Historical_Information a owl:Class ;
+    rdfs:subClassOf :Documentarial_Information .
+
+:Intelectual_Entertainment a owl:Class ;
+    rdfs:subClassOf :Experience .
+
+:Kids a owl:Class ;
+    rdfs:subClassOf :SocialActive .
+
+:Logical_Thrilling a owl:Class ;
+    rdfs:subClassOf :Thrilling .
+
+:Love a owl:Class ;
+    rdfs:subClassOf :Sensible .
+
+:Old_Action a owl:Class ;
+    rdfs:subClassOf :Actionreach .
+
+:Porn a owl:Class ;
+    rdfs:subClassOf :Experience .
+
+:Producer a owl:Class ;
+    rdfs:subClassOf ontology:Person .
+
+:Special-Info a owl:Class ;
+    rdfs:subClassOf :Information .
+
+:belongsToGenre a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Genre .
+
+:hasColor a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Colorinfo .
+
+:hasDirector a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range page:Film_Director .
+
+:hasFilmLocation a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range page:Place .
+
+:hasSoundmix a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Sound_Mix .
+
+:hasTranslatedMovie a owl:ObjectProperty ;
+    rdfs:domain ontology:Language ;
+    rdfs:range www:Movie .
+
+:isActressIn a owl:ObjectProperty ;
+    rdfs:subPropertyOf :isActorIn ;
+    owl:propertyDisjointWith movieontology2:isMaleActorIn .
+
+:isAwardedWith a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range :Award .
+
+:isCertificationOf a owl:ObjectProperty ;
+    rdfs:domain :Certification ;
+    rdfs:range www:Movie .
+
+:isComposerIn a owl:ObjectProperty ;
+    rdfs:domain ontology:Musical_Artist ;
+    rdfs:range www:Movie .
+
+:isConsumableAs a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range movieontology2:Consumable_Product .
+
+:isCostumeDesignerIn a owl:ObjectProperty ;
+    rdfs:domain :Costume_Designer ;
+    rdfs:range www:Movie .
+
+:isEditorIn a owl:ObjectProperty ;
+    rdfs:domain :Editor ;
+    rdfs:range www:Movie .
+
+:isReleasingCountryOf a owl:ObjectProperty ;
+    rdfs:domain ontology:Country ;
+    rdfs:range www:Movie .
+
+:produced a owl:ObjectProperty ;
+    rdfs:domain :Production_Company ;
+    rdfs:range www:Movie .
+
+movieontology2:isMaleActorIn a owl:ObjectProperty ;
+    rdfs:subPropertyOf :isActorIn ;
+    owl:inverseOf :hasMaleActor .
+
+ontology:Musical_Artist a owl:Class ;
+    rdfs:subClassOf ontology:Person .
+
+page:Film_Director a owl:Class ;
+    rdfs:subClassOf ontology:Person .
+
+page:Place a owl:Class .
+
+:Brute_Action a owl:Class ;
+    rdfs:subClassOf :Actionreach .
+
+:Costume_Designer a owl:Class ;
+    rdfs:subClassOf ontology:Person .
+
+:Editor a owl:Class ;
+    rdfs:subClassOf ontology:Person .
+
+:Fun a owl:Class ;
+    rdfs:subClassOf :SocialActive .
+
+:Heavy_Sensible a owl:Class ;
+    rdfs:subClassOf :Sensible .
+
+:Info-TV a owl:Class ;
+    rdfs:subClassOf :Fast-Info .
+
+:Information a owl:Class ;
+    rdfs:subClassOf :Genre .
+
+:Leonardo_DiCaprio a ontology:Actor ;
+    rdfs:label "Leonardo DiCaprio"^^xsd:string .
+
+:Musical_Entertainment a owl:Class ;
+    rdfs:subClassOf :Intelectual_Entertainment .
+
+:Production_Company a owl:Class .
+
+:SciFi_and_Fantasy a owl:Class ;
+    rdfs:subClassOf :Imaginational_Entertainment .
+
+:Sensible a owl:Class ;
+    rdfs:subClassOf :Entertainment .
+
+:Sensible_Thrilling a owl:Class ;
+    rdfs:subClassOf :Thrilling .
+
+:SocialActive a owl:Class ;
+    rdfs:subClassOf :Entertainment .
+
+:TV-Entertainment a owl:Class ;
+    rdfs:subClassOf :Experience .
+
+:hasActor a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:range ontology:Actor ;
+    owl:inverseOf :isActorIn .
+
+:hasMaleActor a owl:ObjectProperty ;
+    rdfs:domain www:Movie ;
+    rdfs:subPropertyOf :hasActor .
+
+movieontology2:Consumable_Product a owl:Class .
+
+ontology:Actor a owl:Class ;
+    rdfs:subClassOf ontology:Person .
+
+ontology:Language a owl:Class ;
+    rdfs:subClassOf :Presentation .
+
+:Actionreach a owl:Class ;
+    rdfs:subClassOf :Entertainment .
+
+:Amazon.com_retailer a :Online_retailer,
+        owl:Thing .
+
+:Blockbuster.com_retailer a :Online_retailer,
+        owl:Thing .
+
+:Certification a owl:Class .
+
+:Documentarial_Information a owl:Class ;
+    rdfs:subClassOf :Special-Info .
+
+:Experience a owl:Class ;
+    rdfs:subClassOf :Entertainment .
+
+:Imaginational_Entertainment a owl:Class ;
+    rdfs:subClassOf :Entertainment .
+
+:LatinAmerica a owl:Class ;
+    rdfs:subClassOf :America .
+
+:Netflix.com_retailer a :Online_retailer,
+        owl:Thing .
+
+:Presentation a owl:Class .
+
+:RottenTomatoes.com_retailer a :Online_retailer,
+        owl:Thing .
+
+:Sound_Mix a owl:Class ;
+    rdfs:subClassOf :Presentation .
+
+:Thrilling a owl:Class ;
+    rdfs:subClassOf :Imaginational_Entertainment .
+
+ontology:Country a owl:Class .
+
+:America a owl:Class ;
+    rdfs:subClassOf :Territory .
+
+:Australia_and_New_Zealand a owl:Class ;
+    rdfs:subClassOf :Oceania .
+
+:Genre a owl:Class .
+
+:Online_retailer a owl:Class .
+
+:isActorIn a owl:ObjectProperty ;
+    rdfs:domain ontology:Actor ;
+    rdfs:range www:Movie ;
+    rdfs:subPropertyOf :isActorIn .
+
+:Colorinfo a owl:Class ;
+    rdfs:subClassOf :Presentation .
+
+:Europe a owl:Class ;
+    rdfs:subClassOf :Territory .
+
+:Oceania a owl:Class ;
+    rdfs:subClassOf :Territory .
+
+:Africa a owl:Class ;
+    rdfs:subClassOf :Territory .
+
+:Central_Asia a owl:Class ;
+    rdfs:subClassOf :Asia .
+
+:Entertainment a owl:Class ;
+    rdfs:subClassOf :Genre .
+
+:Melanesia a owl:Class ;
+    rdfs:subClassOf :Oceania .
+
+:Northern_America a owl:Class ;
+    rdfs:subClassOf :America .
+
+:Southern_Africa a owl:Class ;
+    rdfs:subClassOf :Africa .
+
+ontology:Person a owl:Class .
+
+:Asia a owl:Class ;
+    rdfs:subClassOf :Territory .
+
+:Territory a owl:Class .
+
+:Award a owl:Class .
+
+:Central_America a owl:Class ;
+    rdfs:subClassOf :LatinAmerica ;
+    owl:disjointWith :South_America .
+
+:Micronesia a owl:Class ;
+    rdfs:subClassOf :Oceania .
+
+:Northern_Africa a owl:Class ;
+    rdfs:subClassOf :Africa .
+
+:Eastern_Asia a owl:Class ;
+    rdfs:subClassOf :Asia .
+
+:Middle_Africa a owl:Class ;
+    rdfs:subClassOf :Africa .
+
+:Western_Europe a owl:Class ;
+    rdfs:subClassOf :Europe .
+
+:Eastern_Europe a owl:Class ;
+    rdfs:subClassOf :Europe .
+
+:Polynesia a owl:Class ;
+    rdfs:subClassOf :Oceania .
+
+:Southern_Asia a owl:Class ;
+    rdfs:subClassOf :Asia .
+
+:Southeastern_Asia a owl:Class ;
+    rdfs:subClassOf :Asia .
+
+:South_America a owl:Class ;
+    rdfs:subClassOf :LatinAmerica .
+
+:Northern_Europe a owl:Class ;
+    rdfs:subClassOf :Europe .
+
+:Southern_Europe a owl:Class ;
+    rdfs:subClassOf :Europe .
+
+:Western_Africa a owl:Class ;
+    rdfs:subClassOf :Africa .
+
+:Western_Asia a owl:Class ;
+    rdfs:subClassOf :Asia .
+
+:Eastern_Africa a owl:Class ;
+    rdfs:subClassOf :Africa .
+
+:Caribbean a owl:Class ;
+    rdfs:subClassOf :America .
+
+www:Movie a owl:Class .
+
+owl:Thing a owl:Class .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Australia_and_New_Zealand :Melanesia :Micronesia :Polynesia ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( :Amazon.com_retailer :Blockbuster.com_retailer ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Eastern_Africa :Middle_Africa :Northern_Africa :Southern_Africa :Western_Africa ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( :Blockbuster.com_retailer :RottenTomatoes.com_retailer ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( :Netflix.com_retailer :Blockbuster.com_retailer ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( :Netflix.com_retailer :RottenTomatoes.com_retailer ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Eastern_Europe :Northern_Europe :Southern_Europe :Western_Europe ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Africa :America :Asia :Europe :Oceania ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( :Amazon.com_retailer :Netflix.com_retailer ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( :Amazon.com_retailer :RottenTomatoes.com_retailer ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Caribbean :LatinAmerica :Northern_America ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Central_Asia :Eastern_Asia :Southeastern_Asia :Southern_Asia :Western_Asia ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( ontology:Language :Colorinfo :Sound_Mix ) .
+
